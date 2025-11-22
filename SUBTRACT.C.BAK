@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int a,b,sub;
+	printf("Enter any two numbers\n");
+	scanf("%d%d",&a,&b);
+	sub=a-b;
+	printf("Sub the above two values= %d",sub);
+	getch();
+}
