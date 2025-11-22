@@ -1,0 +1,13 @@
+#include<math.h>
+void main()
+{
+	double p,r,n,t,A,x,y;
+	clrscr();
+	printf("Enter principle amount,rate of interest,number of times interest applied,duration");
+	scanf("%lf%lf%lf%lf",&p,&r,&n,&t);
+	x=1+(r/n);
+	y=n*t;
+	A=p*pow(x,y);
+	printf("Amount to be paid=%lf",A);
+	getch();
+}
