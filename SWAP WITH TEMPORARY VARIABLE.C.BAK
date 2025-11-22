@@ -1,0 +1,12 @@
+#include<stdio.h>
+void main()
+{
+	int a,b,c;
+	printf("Enter any two numbers\n");
+	scanf("%d%d",&a,&b);
+	c=a;
+	a=b;
+	b=c;
+	printf("\n After swapping values are %d %d",a,b);
+	getch();
+}
