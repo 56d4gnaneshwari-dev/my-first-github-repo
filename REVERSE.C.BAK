@@ -1,0 +1,15 @@
+#include<stdio.h>
+void main()
+{
+	int n,d,rev=0,sum=0;
+	printf("enter any number\n");
+	scanf("%d",&n);
+	for( ;n>0;n=n/10)
+	{
+		d=n%10;
+		rev=(rev*10)+d;
+		sum=sum+d;
+	}
+	printf("\nrev of number=%d",rev);
+	printf("\nsum of the digits=%d",sum);
+}
