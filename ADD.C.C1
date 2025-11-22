@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+
+	int a,b,sum; //variable declaration
+	printf("enter any two numbers\n");
+	scanf("%d %d",&a,&b);
+	sum=a+b;
+	printf("\n sum of the above two numbers=%d",sum);
+	getch();
+}
